@@ -12,7 +12,7 @@ namespace WindAddin.L
 
         }
 
-        public void OneGenerateRec(decimal[] para)
+        public void OneGenerateRec(params decimal[] para)
         {
             if (para.Length == 6)       //应该是动态数组改为count
             {
