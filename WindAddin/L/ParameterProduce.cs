@@ -9,7 +9,7 @@ namespace WindAddin.L
     {
         public  ParameterProduce()
         {
-
+            /////////////////////////////////
         }
 
         public void OneGenerateRec(decimal[] para)

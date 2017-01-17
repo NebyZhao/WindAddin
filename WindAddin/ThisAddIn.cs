@@ -18,6 +18,7 @@ namespace WindAddin
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
         {
+            //test
         }
 
         #region VSTO 生成的代码
