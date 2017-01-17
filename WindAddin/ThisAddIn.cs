@@ -14,6 +14,7 @@ namespace WindAddin
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
             //测试
+            //测试2
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
