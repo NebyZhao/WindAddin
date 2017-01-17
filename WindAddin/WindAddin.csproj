@@ -169,11 +169,11 @@
     <Compile Include="Z\Ribbon1.Designer.cs">
       <DependentUpon>Ribbon1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Z\UserControl_InsetCoordinate.cs">
+    <Compile Include="Z\UserControl_InsertCoordinate.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Z\UserControl_InsetCoordinate.Designer.cs">
-      <DependentUpon>UserControl_InsetCoordinate.cs</DependentUpon>
+    <Compile Include="Z\UserControl_InsertCoordinate.Designer.cs">
+      <DependentUpon>UserControl_InsertCoordinate.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -188,10 +188,9 @@
     <EmbeddedResource Include="Z\Ribbon1.resx">
       <DependentUpon>Ribbon1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Z\UserControl_InsetCoordinate.resx">
-      <DependentUpon>UserControl_InsetCoordinate.cs</DependentUpon>
+    <EmbeddedResource Include="Z\UserControl_InsertCoordinate.resx">
+      <DependentUpon>UserControl_InsertCoordinate.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
