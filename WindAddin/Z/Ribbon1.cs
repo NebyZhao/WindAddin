@@ -15,7 +15,11 @@ namespace WindAddin
 
         private void btnInsertCoordinate_Click(object sender, RibbonControlEventArgs e)
         {
-
+            Microsoft.Office.Tools.CustomTaskPane pane;
+            pane = Globals.ThisAddIn.CustomTaskPanes.Add(new UserControl_InsertCoordinate(), "插入坐标", Globals.ThisAddIn.Application.ActiveWindow);
+            pane.Width = 250;
+            pane.DockPosition = Microsoft.Office.Core.MsoCTPDockPosition.msoCTPDockPositionLeft;
+            pane.Visible = true;
         }
     }
 }

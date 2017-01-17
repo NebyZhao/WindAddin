@@ -1,4 +1,4 @@
-﻿namespace WindAddin.Z
+﻿namespace WindAddin
 {
     partial class UserControl_InsertCoordinate
     {
@@ -30,15 +30,15 @@
         {
             this.txtZ1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtZ2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtY1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtY2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtX2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtX1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btnInsertCoordinate = new DevExpress.XtraEditors.SimpleButton();
             this.SuspendLayout();
@@ -53,99 +53,107 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(19, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(17, 12);
+            this.label1.Size = new System.Drawing.Size(22, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "Z1";
             // 
-            // textBox1
+            // txtZ2
             // 
-            this.textBox1.Location = new System.Drawing.Point(152, 63);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(57, 21);
-            this.textBox1.TabIndex = 0;
+            this.txtZ2.Location = new System.Drawing.Point(137, 63);
+            this.txtZ2.Name = "txtZ2";
+            this.txtZ2.Size = new System.Drawing.Size(57, 21);
+            this.txtZ2.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(129, 66);
+            this.label2.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(114, 66);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(17, 12);
+            this.label2.Size = new System.Drawing.Size(22, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Z2";
             // 
-            // textBox2
+            // txtY1
             // 
-            this.textBox2.Location = new System.Drawing.Point(152, 99);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(57, 21);
-            this.textBox2.TabIndex = 0;
+            this.txtY1.Location = new System.Drawing.Point(137, 99);
+            this.txtY1.Name = "txtY1";
+            this.txtY1.Size = new System.Drawing.Size(57, 21);
+            this.txtY1.TabIndex = 0;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(129, 102);
+            this.label3.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Location = new System.Drawing.Point(114, 102);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(17, 12);
+            this.label3.Size = new System.Drawing.Size(22, 17);
             this.label3.TabIndex = 1;
             this.label3.Text = "Y1";
             // 
-            // textBox3
+            // txtY2
             // 
-            this.textBox3.Location = new System.Drawing.Point(152, 135);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(57, 21);
-            this.textBox3.TabIndex = 0;
+            this.txtY2.Location = new System.Drawing.Point(137, 135);
+            this.txtY2.Name = "txtY2";
+            this.txtY2.Size = new System.Drawing.Size(57, 21);
+            this.txtY2.TabIndex = 0;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(129, 138);
+            this.label4.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Location = new System.Drawing.Point(114, 138);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(17, 12);
+            this.label4.Size = new System.Drawing.Size(22, 17);
             this.label4.TabIndex = 1;
             this.label4.Text = "Y2";
             // 
-            // textBox4
+            // txtX2
             // 
-            this.textBox4.Location = new System.Drawing.Point(42, 135);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(57, 21);
-            this.textBox4.TabIndex = 0;
+            this.txtX2.Location = new System.Drawing.Point(42, 135);
+            this.txtX2.Name = "txtX2";
+            this.txtX2.Size = new System.Drawing.Size(57, 21);
+            this.txtX2.TabIndex = 0;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.Location = new System.Drawing.Point(19, 138);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(17, 12);
+            this.label5.Size = new System.Drawing.Size(23, 17);
             this.label5.TabIndex = 1;
             this.label5.Text = "X2";
             // 
-            // textBox5
+            // txtX1
             // 
-            this.textBox5.Location = new System.Drawing.Point(42, 99);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(57, 21);
-            this.textBox5.TabIndex = 0;
+            this.txtX1.Location = new System.Drawing.Point(42, 99);
+            this.txtX1.Name = "txtX1";
+            this.txtX1.Size = new System.Drawing.Size(57, 21);
+            this.txtX1.TabIndex = 0;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.Location = new System.Drawing.Point(19, 102);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(17, 12);
+            this.label6.Size = new System.Drawing.Size(23, 17);
             this.label6.TabIndex = 1;
             this.label6.Text = "X1";
             // 
             // btnInsertCoordinate
             // 
-            this.btnInsertCoordinate.Location = new System.Drawing.Point(82, 229);
+            this.btnInsertCoordinate.Location = new System.Drawing.Point(68, 219);
             this.btnInsertCoordinate.Name = "btnInsertCoordinate";
+            this.btnInsertCoordinate.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnInsertCoordinate.Size = new System.Drawing.Size(75, 23);
             this.btnInsertCoordinate.TabIndex = 2;
             this.btnInsertCoordinate.Text = "插入坐标";
+            this.btnInsertCoordinate.Click += new System.EventHandler(this.btnInsertCoordinate_Click);
             // 
             // UserControl_InsertCoordinate
             // 
@@ -158,11 +166,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtX1);
+            this.Controls.Add(this.txtX2);
+            this.Controls.Add(this.txtY2);
+            this.Controls.Add(this.txtY1);
+            this.Controls.Add(this.txtZ2);
             this.Controls.Add(this.txtZ1);
             this.Name = "UserControl_InsertCoordinate";
             this.Size = new System.Drawing.Size(245, 408);
@@ -175,15 +183,15 @@
 
         private System.Windows.Forms.TextBox txtZ1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtZ2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtY1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtY2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtX2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtX1;
         private System.Windows.Forms.Label label6;
         private DevExpress.XtraEditors.SimpleButton btnInsertCoordinate;
     }
