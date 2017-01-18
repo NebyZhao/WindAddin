@@ -212,9 +212,6 @@
     <None Include="WindAddin_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\单个输入.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\矩形.png" />
   </ItemGroup>
   <ItemGroup>
