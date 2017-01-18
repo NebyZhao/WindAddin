@@ -159,10 +159,15 @@
     can be found.
   -->
   <ItemGroup>
+    <Compile Include="L\AllInOne.cs" />
+    <Compile Include="L\DataFile.cs" />
+    <Compile Include="L\FuckBorderDefine.cs" />
+    <Compile Include="L\FuckExcel.cs" />
     <Compile Include="L\ParameterProduce.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="WindHistory.cs" />
     <Compile Include="Z\Ribbon1.cs">
       <SubType>Component</SubType>
     </Compile>
