@@ -28,32 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl_InsertCoordinate));
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
             this.txtZ1 = new System.Windows.Forms.TextBox();
             this.btnInsertCoordinate_One = new DevExpress.XtraEditors.SimpleButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtY2 = new System.Windows.Forms.TextBox();
             this.txtZ2 = new System.Windows.Forms.TextBox();
+            this.txtX2 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.txtX1 = new System.Windows.Forms.TextBox();
             this.txtY1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtX2 = new System.Windows.Forms.TextBox();
-            this.txtY2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.xtraTabPage4.SuspendLayout();
-            this.xtraTabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.xtraTabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -117,6 +116,27 @@
             this.btnInsertCoordinate_One.TabIndex = 16;
             this.btnInsertCoordinate_One.Text = "插  入";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WindAddin.Properties.Resources.矩形;
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(99, 93);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(83, 105);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Location = new System.Drawing.Point(137, 68);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(22, 17);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "Y2";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -127,12 +147,36 @@
             this.label1.TabIndex = 15;
             this.label1.Text = "Z1";
             // 
+            // txtY2
+            // 
+            this.txtY2.Location = new System.Drawing.Point(160, 65);
+            this.txtY2.Name = "txtY2";
+            this.txtY2.Size = new System.Drawing.Size(52, 22);
+            this.txtY2.TabIndex = 7;
+            // 
             // txtZ2
             // 
             this.txtZ2.Location = new System.Drawing.Point(35, 176);
             this.txtZ2.Name = "txtZ2";
             this.txtZ2.Size = new System.Drawing.Size(48, 22);
             this.txtZ2.TabIndex = 5;
+            // 
+            // txtX2
+            // 
+            this.txtX2.Location = new System.Drawing.Point(160, 34);
+            this.txtX2.Name = "txtX2";
+            this.txtX2.Size = new System.Drawing.Size(52, 22);
+            this.txtX2.TabIndex = 8;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Location = new System.Drawing.Point(137, 37);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(23, 17);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "X2";
             // 
             // label2
             // 
@@ -154,6 +198,16 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "X1";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Location = new System.Drawing.Point(40, 65);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(22, 17);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Y1";
+            // 
             // txtX1
             // 
             this.txtX1.Location = new System.Drawing.Point(63, 34);
@@ -168,50 +222,6 @@
             this.txtY1.Size = new System.Drawing.Size(52, 22);
             this.txtY1.TabIndex = 6;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(40, 65);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(22, 17);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Y1";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(137, 37);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(23, 17);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "X2";
-            // 
-            // txtX2
-            // 
-            this.txtX2.Location = new System.Drawing.Point(160, 34);
-            this.txtX2.Name = "txtX2";
-            this.txtX2.Size = new System.Drawing.Size(52, 22);
-            this.txtX2.TabIndex = 8;
-            // 
-            // txtY2
-            // 
-            this.txtY2.Location = new System.Drawing.Point(160, 65);
-            this.txtY2.Name = "txtY2";
-            this.txtY2.Size = new System.Drawing.Size(52, 22);
-            this.txtY2.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(137, 68);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(22, 17);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Y2";
-            // 
             // xtraTabPage2
             // 
             this.xtraTabPage2.Controls.Add(this.simpleButton1);
@@ -219,32 +229,6 @@
             this.xtraTabPage2.Name = "xtraTabPage2";
             this.xtraTabPage2.Size = new System.Drawing.Size(216, 276);
             this.xtraTabPage2.Text = "连续输入";
-            // 
-            // xtraTabPage3
-            // 
-            this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(216, 203);
-            this.xtraTabPage3.Text = "等分输入";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(99, 93);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(83, 105);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(21, 58);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(166, 162);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
             // 
             // simpleButton1
             // 
@@ -254,6 +238,22 @@
             this.simpleButton1.Size = new System.Drawing.Size(75, 28);
             this.simpleButton1.TabIndex = 17;
             this.simpleButton1.Text = "插  入";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::WindAddin.Properties.Resources.矩形2;
+            this.pictureBox2.Location = new System.Drawing.Point(21, 58);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(166, 162);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
+            // 
+            // xtraTabPage3
+            // 
+            this.xtraTabPage3.Name = "xtraTabPage3";
+            this.xtraTabPage3.Size = new System.Drawing.Size(216, 276);
+            this.xtraTabPage3.Text = "等分输入";
             // 
             // UserControl_InsertCoordinate
             // 
@@ -266,8 +266,8 @@
             this.xtraTabControl1.ResumeLayout(false);
             this.xtraTabPage4.ResumeLayout(false);
             this.xtraTabPage4.PerformLayout();
-            this.xtraTabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.xtraTabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 

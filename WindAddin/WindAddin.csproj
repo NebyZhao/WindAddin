@@ -183,6 +183,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Z\Ribbon1.resx">
       <DependentUpon>Ribbon1.cs</DependentUpon>
@@ -210,7 +211,15 @@
     <AppDesigner Include="Properties\" />
     <None Include="WindAddin_TemporaryKey.pfx" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\单个输入.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\矩形.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\矩形2.png" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
