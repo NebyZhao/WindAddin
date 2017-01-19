@@ -178,12 +178,21 @@
     <Compile Include="Z\Ribbon1.Designer.cs">
       <DependentUpon>Ribbon1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Z\ThePanes.cs" />
+    <Compile Include="Z\UserControl_ExtractData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Z\UserControl_ExtractData.Designer.cs">
+      <DependentUpon>UserControl_ExtractData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Z\UserControl_InsertCoordinate.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Z\UserControl_InsertCoordinate.Designer.cs">
       <DependentUpon>UserControl_InsertCoordinate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Z\WindHistorySheet.cs" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -196,6 +205,9 @@
     </Compile>
     <EmbeddedResource Include="Z\Ribbon1.resx">
       <DependentUpon>Ribbon1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Z\UserControl_ExtractData.resx">
+      <DependentUpon>UserControl_ExtractData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Z\UserControl_InsertCoordinate.resx">
       <DependentUpon>UserControl_InsertCoordinate.cs</DependentUpon>
@@ -228,6 +240,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\矩形3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\插入坐标.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\风速时程.png" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Office.Interop.Excel;
 
-namespace WindAddin.L
+namespace WindAddin
 {
     class AllInOne
     {
@@ -23,7 +23,7 @@ namespace WindAddin.L
                 FE.ManageExcel();
                 angle[i1] = DaF.angle.ToString();
             }
-
+                        
 
         }
     }

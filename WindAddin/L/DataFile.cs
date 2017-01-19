@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace WindAddin.L
+namespace WindAddin
 {
     public struct Point
     {
