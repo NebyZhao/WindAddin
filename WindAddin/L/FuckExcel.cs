@@ -88,9 +88,10 @@ namespace WindAddin
 
                         //xlWb.Sheets[xlWb.Sheets.Count].Cells[i1 + 1, i2 + 1].Value = averageP.ToString();//cells还是cell？？？？？？？？？？？？？
                         ////////////////////////////////////////////////////////////////////////////////////////////////////
+                        xlWb.Sheets[xlWb.Sheets.Count].Columns[i2 + 1].Autofit();
                     }
 
-                    xlWb.Sheets[xlWb.Sheets.Count].Columns[i2 + 1].Autofit();
+                   
                 }
 
             }

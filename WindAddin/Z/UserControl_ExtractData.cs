@@ -84,7 +84,7 @@ namespace WindAddin
             ((Range)progressSheet.Range[progressSheet.Cells[2, 4], progressSheet.Cells[1 + filePath.Length, 4]]).Font.Color = Color.Red;
             ((Range)progressSheet.Range[progressSheet.Cells[2, 4], progressSheet.Cells[1 + filePath.Length, 4]]).Font.Bold = true;
             xlApp.ActiveWindow.DisplayGridlines = false;
-            //xlApp.ActiveWindow.DisplayHeadings = false;
+            xlApp.ActiveWindow.DisplayHeadings = false;
             progressSheet.Columns["F:XFD"].Hidden = true;
             xlApp.ScreenUpdating = true;
         }
@@ -110,11 +110,29 @@ namespace WindAddin
                 DataFile DaF = new DataFile(filePath[i]);
                 FuckExcel FE = new FuckExcel(DaF, xlWb, xlWs);
                 FE.ManageExcel();
-                xlApp.ScreenUpdating = true;
                 progressSheet.Activate();
+                xlApp.ScreenUpdating = true;               
                 progressSheet.Cells[i + 2, 4].Value = "已完成";
                 progressSheet.Cells[i + 2, 4].Font.Color = Color.Green;
             }
+            if (chkEnvelope.Checked)
+            {
+                progressSheet.Cells[filePath.Length + 2, 4].Value = "生成包络中";
+                progressSheet.Cells[filePath.Length + 2, 4].Font.Color = Color.Yellow;
+                xlApp.ScreenUpdating = false;
+                string[] angles = new string[filePath.Length];
+                for (int i = 0; i < angles.Length; i++)
+                {
+                    MatchCollection mc = Regex.Matches(filePath[i], "\\d+");
+                    angles[i] = mc[mc.Count - 1].ToString();
+                }
+                Envelope en = new Envelope(xlWb, xlWs, angles);
+                en.ManageExcel();
+                progressSheet.Activate();
+                xlApp.ScreenUpdating = true;
+                ((Range)progressSheet.Cells[filePath.Length + 2, 4]).Clear();
+            }
+     
         }
     }
 }

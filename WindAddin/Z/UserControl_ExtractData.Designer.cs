@@ -34,6 +34,8 @@
             this.btnGetResult = new DevExpress.XtraEditors.SimpleButton();
             this.cboCoordinate = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.chkEnvelope = new DevExpress.XtraEditors.CheckEdit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkEnvelope.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -63,7 +65,7 @@
             // 
             // btnGetResult
             // 
-            this.btnGetResult.Location = new System.Drawing.Point(77, 179);
+            this.btnGetResult.Location = new System.Drawing.Point(77, 223);
             this.btnGetResult.Name = "btnGetResult";
             this.btnGetResult.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnGetResult.Size = new System.Drawing.Size(95, 28);
@@ -85,16 +87,26 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(36, 260);
+            this.label1.Location = new System.Drawing.Point(36, 280);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(179, 12);
             this.label1.TabIndex = 21;
             this.label1.Text = "提取过程中，请不要操作Excel！";
             // 
+            // chkEnvelope
+            // 
+            this.chkEnvelope.EditValue = true;
+            this.chkEnvelope.Location = new System.Drawing.Point(60, 177);
+            this.chkEnvelope.Name = "chkEnvelope";
+            this.chkEnvelope.Properties.Caption = "同时生成正负包络";
+            this.chkEnvelope.Size = new System.Drawing.Size(120, 19);
+            this.chkEnvelope.TabIndex = 22;
+            // 
             // UserControl_ExtractData
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.chkEnvelope);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cboCoordinate);
             this.Controls.Add(this.label13);
@@ -102,6 +114,7 @@
             this.Controls.Add(this.btnBrowse);
             this.Name = "UserControl_ExtractData";
             this.Size = new System.Drawing.Size(245, 547);
+            ((System.ComponentModel.ISupportInitialize)(this.chkEnvelope.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,5 +128,6 @@
         private DevExpress.XtraEditors.SimpleButton btnGetResult;
         private System.Windows.Forms.ComboBox cboCoordinate;
         private System.Windows.Forms.Label label1;
+        private DevExpress.XtraEditors.CheckEdit chkEnvelope;
     }
 }
