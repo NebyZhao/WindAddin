@@ -39,6 +39,11 @@
             this.group1 = this.Factory.CreateRibbonGroup();
             this.separator1 = this.Factory.CreateRibbonSeparator();
             this.group2 = this.Factory.CreateRibbonGroup();
+            this.btnE2k = this.Factory.CreateRibbonButton();
+            this.btnExtractEtabs = this.Factory.CreateRibbonButton();
+            this.btnGambit = this.Factory.CreateRibbonButton();
+            this.btnFluent = this.Factory.CreateRibbonButton();
+            this.separator2 = this.Factory.CreateRibbonSeparator();
             this.btnInsertCoordinate = this.Factory.CreateRibbonToggleButton();
             this.btnExtractData = this.Factory.CreateRibbonToggleButton();
             this.btnWindHistory = this.Factory.CreateRibbonButton();
@@ -56,6 +61,8 @@
             // 
             // group1
             // 
+            this.group1.Items.Add(this.btnGambit);
+            this.group1.Items.Add(this.btnFluent);
             this.group1.Items.Add(this.separator1);
             this.group1.Items.Add(this.btnInsertCoordinate);
             this.group1.Items.Add(this.btnExtractData);
@@ -69,8 +76,44 @@
             // group2
             // 
             this.group2.Items.Add(this.btnWindHistory);
+            this.group2.Items.Add(this.btnE2k);
+            this.group2.Items.Add(this.separator2);
+            this.group2.Items.Add(this.btnExtractEtabs);
             this.group2.Label = "风振验算";
             this.group2.Name = "group2";
+            // 
+            // btnE2k
+            // 
+            this.btnE2k.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnE2k.Image = global::WindAddin.Properties.Resources.e2k;
+            this.btnE2k.Label = "生成e2k";
+            this.btnE2k.Name = "btnE2k";
+            this.btnE2k.ShowImage = true;
+            // 
+            // btnExtractEtabs
+            // 
+            this.btnExtractEtabs.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnExtractEtabs.Label = "提取Etabs结果";
+            this.btnExtractEtabs.Name = "btnExtractEtabs";
+            this.btnExtractEtabs.ShowImage = true;
+            // 
+            // btnGambit
+            // 
+            this.btnGambit.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnGambit.Label = "Gambit";
+            this.btnGambit.Name = "btnGambit";
+            this.btnGambit.ShowImage = true;
+            // 
+            // btnFluent
+            // 
+            this.btnFluent.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.btnFluent.Label = "Fluent";
+            this.btnFluent.Name = "btnFluent";
+            this.btnFluent.ShowImage = true;
+            // 
+            // separator2
+            // 
+            this.separator2.Name = "separator2";
             // 
             // btnInsertCoordinate
             // 
@@ -124,6 +167,11 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonToggleButton btnExtractData;
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup group2;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnWindHistory;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnGambit;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnFluent;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnE2k;
+        internal Microsoft.Office.Tools.Ribbon.RibbonSeparator separator2;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton btnExtractEtabs;
     }
 
     partial class ThisRibbonCollection

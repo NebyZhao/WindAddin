@@ -63,7 +63,8 @@ namespace WindAddin
 
         private void btnWindHistory_Click(object sender, RibbonControlEventArgs e)
         {
-            WindHistorySheet.CreateSheet();
+            WindHistorySheet whs=new WindHistorySheet();
+            whs.CreateSheet();
         }
     }
 }
