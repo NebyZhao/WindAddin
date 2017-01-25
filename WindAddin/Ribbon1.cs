@@ -59,12 +59,20 @@ namespace WindAddin
         {
             AddPane(new UserControl_ExtractData(), sender);
         }
-        #endregion
 
         private void btnWindHistory_Click(object sender, RibbonControlEventArgs e)
         {
             WindHistorySheet whs=new WindHistorySheet();
             whs.CreateSheet();
         }
+
+        private void btnE2k_Click(object sender, RibbonControlEventArgs e)
+        {
+            E2KSheet s = new E2KSheet();
+            s.CreateSheet();
+        }
+
+
+        #endregion
     }
 }

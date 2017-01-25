@@ -21,7 +21,7 @@ namespace WindAddin
             xlWs.Name = "风速时程计算";
             Globals.ThisAddIn.Application.ScreenUpdating = false;
             ((Range)xlWs.Rows).RowHeight = 23.25;
-            ((Range)xlWs.Rows).HorizontalAlignment = XlVAlign.xlVAlignCenter;
+            ((Range)xlWs.Rows).HorizontalAlignment = XlHAlign.xlHAlignCenter;
             ((Range)xlWs.Rows[1]).RowHeight = 29.25;
             ((Range)xlWs.Columns["B:C"]).ColumnWidth = 12;
             ((Range)xlWs.Columns["E:E"]).ColumnWidth = 23.75;

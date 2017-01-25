@@ -93,6 +93,16 @@ namespace WindAddin.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 层号点号 {
+            get {
+                object obj = ResourceManager.GetObject("层号点号", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 插入坐标 {
             get {
                 object obj = ResourceManager.GetObject("插入坐标", resourceCulture);
@@ -126,6 +136,16 @@ namespace WindAddin.Properties {
         internal static System.Drawing.Bitmap 矩形3 {
             get {
                 object obj = ResourceManager.GetObject("矩形3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 角度 {
+            get {
+                object obj = ResourceManager.GetObject("角度", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
